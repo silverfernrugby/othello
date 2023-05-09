@@ -6,6 +6,31 @@
   height: 100vh;
   min-height: 100vh;
   padding: 0 0.5rem;
+  background-color: #eaeaea;
+}
+
+.disc {
+  border-radius: 35px;
+  height: 70px;
+  width: 70px;
+  background-color: white;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  width: 80px;
+  height: 80px;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 640px;
+  width: 640px;
+  background-color: #008000;
 }
 
 .main {
@@ -41,7 +66,7 @@
 }
 
 .title > a {
-  color: #0070f3;
+  color: #008000;
   text-decoration: none;
 }
 
